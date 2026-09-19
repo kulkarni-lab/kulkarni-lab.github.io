@@ -141,11 +141,18 @@
         var links = (p.links || []).map(function (l) {
           return '<a href="' + l.url + '">' + l.label + "</a>";
         }).join("");
+        // Tenure can be given as since (a start year), AY (an academic year
+        // range for a dissertation trainee), or Summer (a summer internship
+        // year) — whichever is present is shown after the role.
+        var tenure = p.since ? " · since " + p.since
+          : p.AY ? " · AY " + p.AY
+          : p.Summer ? " · Summer " + p.Summer
+          : "";
         return '<article class="person" id="' + p.name.toLowerCase().replace(/[^a-z]+/g, "-") + '">' +
           photoBlock(p, "people") +
           '<div class="person-body">' +
             "<h3>" + p.name + "</h3>" +
-            '<p class="person-role">' + p.role + (p.since ? " · since " + p.since : "") + "</p>" +
+            '<p class="person-role">' + p.role + tenure + "</p>" +
             (p.note ? '<p class="person-note">' + p.note + "</p>" : "") +
             (links ? '<div class="person-links">' + links + "</div>" : "") +
           "</div></article>";
@@ -290,6 +297,43 @@
     }).join("");
   }
 
+  /* --- Featured publication on the home page ------------------------------
+     Looks for the one entry in PUBLICATIONS with featured: true. Shows a
+     figure + blurb card if it has an image; falls back to a full-width text
+     card if figure is empty or the file fails to load, so a missing image
+     never looks broken. */
+  function renderFeaturedPub() {
+    var host = document.querySelector("[data-featured-pub]");
+    if (!host || !window.PUBLICATIONS) return;
+    var p = window.PUBLICATIONS.find(function (pub) { return pub.featured; });
+    if (!p) { host.closest("section").style.display = "none"; return; }
+
+    var titleLink = p.url ? '<a href="' + p.url + '">' + p.title + "</a>" : p.title;
+    var venueLine = '<p class="pub-venue"><em>' + p.venue + "</em>" +
+      (p.detail ? " " + p.detail : "") + (p.status ? " · " + p.status : "") + "</p>";
+    var text =
+      '<div class="featured-pub-text">' +
+        '<p class="featured-pub-kicker">Latest publication</p>' +
+        "<h3>" + titleLink + "</h3>" +
+        '<p class="pub-authors">' + p.authors + "</p>" +
+        venueLine +
+        (p.blurb ? "<p>" + p.blurb + "</p>" : "") +
+        (p.url ? '<p><a class="btn btn-solid" href="' + p.url + '">Read the paper</a></p>' : "") +
+      "</div>";
+
+    if (p.figure) {
+      host.innerHTML =
+        '<div class="featured-pub-figure">' +
+          '<img src="assets/img/publications/' + p.figure + '" alt="" loading="lazy" ' +
+          'onerror="this.closest(\'.featured-pub\').classList.add(\'no-figure\'); this.remove();">' +
+        "</div>" + text;
+      host.classList.remove("no-figure");
+    } else {
+      host.innerHTML = text;
+      host.classList.add("no-figure");
+    }
+  }
+
   /* --- Recent papers on the home page ------------------------------------- */
   function renderHighlights() {
     var host = document.querySelector("[data-highlights]");
@@ -312,5 +356,6 @@
     renderPublications();
     renderBooks();
     renderHighlights();
+    renderFeaturedPub();
   });
 })();
