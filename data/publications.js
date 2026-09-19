@@ -13,6 +13,14 @@
      tags     any of: genomics, phylogenomics, taxonomy, spiders, acari,
               solifugae, amblypygi, community, other  (used by the filters)
      url      link to the paper. Leave "" if there is none yet.
+
+   To feature a paper on the HOME PAGE with an image and a blurb, add three
+   fields to its entry: featured: true, blurb: "one or two sentences on what
+   it found and why it matters", figure: "filename.jpg" (a file placed in
+   assets/img/publications/ — leave figure: "" if you don't have one yet, and
+   the home page will show the blurb full-width instead of a broken image).
+   Only one paper should carry featured: true; move it when a new one should
+   take the spot.
    ========================================================================== */
 
 window.PUBLICATIONS = [
@@ -45,7 +53,10 @@ window.PUBLICATIONS = [
     authors: "<u>Jyoti Bhoi</u>, <u>Rushikesh Mule</u>, <u>Nishaad Savale</u>, Prashant Sharma, <b>Siddharth Kulkarni</b>*",
     title: "Ancient gene linkages and ultraconserved elements disentangle Acari interrelationships",
     venue: "iScience", detail: "29(2): 114616", tags: ["genomics", "phylogenomics", "acari"],
-    url: "https://www.cell.com/iscience/fulltext/S2589-0042(25)02877-9"
+    url: "https://www.cell.com/iscience/fulltext/S2589-0042(25)02877-9",
+    featured: true,
+    blurb: "Relationships among ticks and mites have resisted resolution for decades. By combining ancient gene linkages that survive across whole chromosomes with hundreds of ultraconserved elements, we recovered a stable backbone for the group \u2014 the lab's first published result.",
+    figure: ""
   },
   {
     n: 38, year: 2025, status: "",
