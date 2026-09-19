@@ -40,7 +40,7 @@ window.PUBLICATIONS = [
     n: 41, year: 2026, status: "submitted",
     authors: "<b>Siddharth Kulkarni</b>, Benjamin Klementz, Jesus Ballesteros, Kaitlyn Abshire, Tauana J. Cunha, … , Prashant Sharma",
     title: "No silver bullet: patterns of macrosynteny recapitulate systemic conflicts in the higher-level relationships of the arachnids",
-    venue: "Molecular Biology and Evolution", detail: "", tags: ["genomics", "phylogenomics"], url: "https://www.biorxiv.org/content/10.64898/2026.06.22.733561v1.abstract"
+    venue: "bioRxiv", detail: "", tags: ["genomics", "phylogenomics"], url: "https://www.biorxiv.org/content/10.64898/2026.06.22.733561v1.abstract"
   },
   {
     n: 40, year: 2026, status: "submitted",
