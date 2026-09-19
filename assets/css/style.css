@@ -447,3 +447,37 @@ figcaption { font-size: var(--t-xs); color: var(--ink-faint); margin-top: .5rem;
 .tagline { display: block; margin-top: .4rem; font-size: var(--t-xs); color: var(--ink-faint); }
 
 .note-count { color: var(--ink-soft); }
+
+/* --- Featured publication (home page) --------------------------------------
+   Two columns — figure, then text — when a figure exists; renderFeaturedPub()
+   adds .no-figure and the JS strips the broken <img> if the file 404s, so a
+   missing image degrades to a single, full-width text card rather than a
+   broken layout. */
+.featured-pub-section { border-top: 1px solid var(--rule); }
+.featured-pub {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 2.5rem; align-items: center;
+  background: var(--surface); border: 1px solid var(--rule); padding: 2rem;
+}
+.featured-pub.no-figure { grid-template-columns: 1fr; padding: 2.25rem 2.5rem; }
+.featured-pub.no-figure .featured-pub-text { max-width: 42rem; }
+
+.featured-pub-figure {
+  aspect-ratio: 4 / 3; overflow: hidden; background: var(--surface-alt);
+  border: 1px solid var(--rule);
+}
+.featured-pub-figure img { width: 100%; height: 100%; object-fit: cover; }
+
+.featured-pub-kicker {
+  font-size: var(--t-xs); text-transform: uppercase; letter-spacing: .08em;
+  color: var(--teal); font-weight: 600; margin-bottom: .5rem;
+}
+.featured-pub-text h3 { margin-bottom: .5rem; }
+.featured-pub-text .pub-authors,
+.featured-pub-text .pub-venue { max-width: none; }
+.featured-pub-text .btn { margin-top: .25rem; }
+
+@media (max-width: 760px) {
+  .featured-pub { grid-template-columns: 1fr; padding: 1.5rem; }
+  .featured-pub-figure { aspect-ratio: 16 / 9; }
+}
