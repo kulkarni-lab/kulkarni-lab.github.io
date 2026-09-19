@@ -28,7 +28,7 @@ window.PUBLICATIONS = [
     n: 43, year: 2026, status: "submitted",
     authors: "<u>Arjun Cherukutty</u>, <u>Pratik Khopkar</u>, <u>Shreya Salunkhe</u>, <u>Dibyo Mazumder</u>, <b>Siddharth Kulkarni</b>*",
     title: "Ancestral genomic stasis and coordinated genome erosion underlie asymmetric acarine diversification",
-    venue: "Cladistics", detail: "", tags: ["genomics", "acari"], url: ""
+    venue: "bioRxiv", detail: "", tags: ["genomics", "acari"], url: "https://www.biorxiv.org/content/10.64898/2026.09.16.752239v1 "
   },
   {
     n: 42, year: 2026, status: "preprint",
