@@ -76,124 +76,124 @@ window.PUBLICATIONS = [
     n: 36, year: 2025, status: "",
     authors: "Nikolaos Papadopoulos, <b>Siddharth Kulkarni</b>, Christian Baranyi, Bastian Fromm, Emily Setton, Prashant Sharma, Andreas Wanninger, Georg Brenneis",
     title: "The genome of a sea spider corroborates a shared Hox cluster motif in arthropods with reduced posterior tagma",
-    venue: "BMC Biology", detail: "23: 196", tags: ["genomics"], url: ""
+    venue: "BMC Biology", detail: "23: 196", tags: ["genomics"], url: "https://link.springer.com/article/10.1186/s12915-025-02276-x"
   },
   {
     n: 35, year: 2024, status: "",
     authors: "Hannah Wood, <b>Siddharth Kulkarni</b>, Martín Ramírez, Nikolaj Scharff",
     title: "Phylogeny and biogeography support ancient vicariance and subsequent dispersal out-of-Africa in Palpimanidae spiders (Araneae)",
     venue: "Zoological Journal of the Linnean Society", detail: "202(2): zlae129",
-    tags: ["phylogenomics", "spiders"], url: ""
+    tags: ["phylogenomics", "spiders"], url: "https://academic.oup.com/zoolinnean/article/202/2/zlae129/7828838"
   },
   {
     n: 34, year: 2024, status: "",
     authors: "Gustavo Silva de Miranda, <b>Siddharth Kulkarni</b>*, Jéssica Tagliatela, Caitlin M. Baker, Alessandro P. L. Giupponi, Facundo M. Labarque, Efrat Gavish-Regev, Michael G. Rix, Leonardo S. Carvalho, Lívia Maria Fusari, Hannah M. Wood, Prashant P. Sharma",
     title: "The rediscovery of a relict unlocks the first global phylogeny of whip spiders (Amblypygi)",
     venue: "Systematic Biology", detail: "73(3): 495–505 · shared first authorship",
-    tags: ["phylogenomics", "amblypygi", "taxonomy"], url: ""
+    tags: ["phylogenomics", "amblypygi", "taxonomy"], url: "https://academic.oup.com/sysbio/article/73/3/495/7669116"
   },
   {
     n: 33, year: 2024, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Takeshi Yamasaki, Luong Thi Hong Phung, Nanguei Karuaera, Savel R. Daniels, Efrat Gavish-Regev, Prashant P. Sharma",
     title: "Phylogenomic data reveal three new families of poorly studied Solifugae (camel spiders)",
     venue: "Molecular Phylogenetics and Evolution", detail: "191: 107989",
-    tags: ["phylogenomics", "solifugae", "taxonomy"], url: ""
+    tags: ["phylogenomics", "solifugae", "taxonomy"], url: "https://www.sciencedirect.com/science/article/pii/S1055790323002890"
   },
   {
     n: 32, year: 2023, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Hugh Steiner, Erika Garcia, Hernán Iuri, Ryan Jones, Jesus Ballesteros, Guilherme Gainett, Matthew R. Graham, Danilo Harms, Robin Lyle, Andrés A. Ojanguren-Affilastro, Carlos E. Santibañez-López, Gustavo Silva de Miranda, Paula E. Cushing, Efrat Gavish-Regev, Prashant P. Sharma",
     title: "Neglected no longer: phylogenomic resolution of higher-level relationships in Solifugae",
-    venue: "iScience", detail: "26(9): 107684", tags: ["phylogenomics", "solifugae"], url: ""
+    venue: "iScience", detail: "26(9): 107684", tags: ["phylogenomics", "solifugae"], url: "https://www.sciencedirect.com/science/article/pii/S2589004223017613"
   },
   {
     n: 31, year: 2023, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Hannah Wood, Gustavo Hormiga",
     title: "Advances in the reconstruction of the Spider Tree of Life: a roadmap for spider systematics and comparative studies",
-    venue: "Cladistics", detail: "39: 479–532", tags: ["phylogenomics", "spiders"], url: ""
+    venue: "Cladistics", detail: "39: 479–532", tags: ["phylogenomics", "spiders"], url: "https://onlinelibrary.wiley.com/doi/10.1111/cla.12557"
   },
   {
     n: 30, year: 2023, status: "",
     authors: "Gustavo Hormiga, <b>Siddharth Kulkarni</b>, Miquel Arnedo, Dimitar Dimitrov, Gonzalo Giribet, Robert J. Kallal, Nikolaj Scharff",
     title: "Genitalic morphology and phylogenomic placement of the Australian spider <i>Paraplectanoides crassipes</i> Keyserling, 1886 (Araneae, Araneidae) with a discussion on the classification of the family Araneidae",
-    venue: "Invertebrate Systematics", detail: "37(12): 797–818", tags: ["phylogenomics", "spiders", "taxonomy"], url: ""
+    venue: "Invertebrate Systematics", detail: "37(12): 797–818", tags: ["phylogenomics", "spiders", "taxonomy"], url: "https://connectsci.au/is/article-abstract/37/12/797/67431/"
   },
   {
     n: 29, year: 2023, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Hannah Wood, Gustavo Hormiga",
     title: "Phylogenomics illuminates the evolution of orb webs, respiratory systems and the biogeographic history of the world's smallest orb-weaving spiders (Araneae, Araneoidea, Symphytognathoids)",
-    venue: "Molecular Phylogenetics and Evolution", detail: "186: 107855", tags: ["phylogenomics", "spiders"], url: ""
+    venue: "Molecular Phylogenetics and Evolution", detail: "186: 107855", tags: ["phylogenomics", "spiders"], url: "https://www.sciencedirect.com/science/article/pii/S1055790323001550"
   },
   {
     n: 28, year: 2023, status: "",
     authors: "Maitry Jani, John T. D. Caleb, Vena Kapoor, <b>Siddharth Kulkarni</b>, Divya Uma",
     title: "Aliens in the society: foreign arthropods and small vertebrates associated with the social spider <i>Stegodyphus sarasinorum</i> Karsch, 1892 (Araneae: Eresidae)",
-    venue: "The Journal of Arachnology", detail: "51(1): 57–62", tags: ["spiders", "other"], url: ""
+    venue: "The Journal of Arachnology", detail: "51(1): 57–62", tags: ["spiders", "other"], url: "https://bioone.org/journals/the-journal-of-arachnology/volume-51/issue-1/JoA-S-22-004/Aliens-in-the-society--foreign-arthropods-and-small-vertebrates/10.1636/JoA-S-22-004.short"
   },
   {
     n: 27, year: 2023, status: "",
     authors: "Jacob A. Gorneau, <b>Siddharth Kulkarni</b>, Franklyn Cala-Riquelme, Lauren A. Esposito",
     title: "Biodiversity catalogs reveal taxonomic effort and geographic bias: a case study",
-    venue: "BioScience", detail: "73(2): 112–123", tags: ["taxonomy", "community"], url: ""
+    venue: "BioScience", detail: "73(2): 112–123", tags: ["taxonomy", "community"], url: "https://academic.oup.com/bioscience/article/73/2/112/7067488"
   },
   {
     n: 26, year: 2022, status: "",
     authors: "Jacob A. Gorneau, William I. Ausich, Sandro Bertolino, Holly Bik, Marymegan Daly, Sebsebe Demissew, David A. Donoso, Ryan Folk, Alina Freire-Fierro, Shahina A. Ghazanfar, Olwen M. Grace, Ai-Qun Hu, <b>Siddharth Kulkarni</b>, Isaac H. Lichter-Marck, Lúcia G. Lohmann, Jagoba Malumbres-Olarte, A. Muthama Muasya, Abel Pérez-González, Yashica Singh, Carolina M. Siniscalchi, Chelsea D. Specht, Alycia L. Stigall, David C. Tank, Leilani A. Walker, David F. Wright, Alireza Zamani, Lauren A. Esposito",
     title: "Framing the future for taxonomic monography: improving recognition, support, and access",
-    venue: "Bulletin of the Society of Systematic Biologists", detail: "1(1): 8328", tags: ["taxonomy", "community"], url: ""
+    venue: "Bulletin of the Society of Systematic Biologists", detail: "1(1): 8328", tags: ["taxonomy", "community"], url: "https://ssbbulletin.org/article/id/4467/"
   },
   {
     n: 25, year: 2021, status: "",
     authors: "Gustavo Hormiga, <b>Siddharth Kulkarni</b>, Thiago da Silva Moreira, Dimitar Dimitrov",
     title: "Molecular phylogeny of pimoid spiders and the limits of Linyphiidae, with a reassessment of male palpal homologies (Araneae, Pimoidae)",
-    venue: "Zootaxa", detail: "5026(1): 71–101", tags: ["phylogenomics", "spiders", "taxonomy"], url: ""
+    venue: "Zootaxa", detail: "5026(1): 71–101", tags: ["phylogenomics", "spiders", "taxonomy"], url: "https://www.biotaxa.org/Zootaxa/article/view/zootaxa.5026.1.3"
   },
   {
     n: 24, year: 2021, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Gustavo Hormiga",
     title: "Hooroo mates! Phylogenomic data suggest that the closest relatives of the iconic Tasmanian cave spider <i>Hickmania troglodytes</i> are in Australia and New Zealand, not in South America",
-    venue: "Invertebrate Systematics", detail: "35: 850–856", tags: ["phylogenomics", "spiders"], url: ""
+    venue: "Invertebrate Systematics", detail: "35: 850–856", tags: ["phylogenomics", "spiders"], url: "https://connectsci.au/is/issue/35/8"
   },
   {
     n: 23, year: 2021, status: "",
     authors: "Robert Kallal, <b>Siddharth Kulkarni</b>, Dimitar Dimitrov, Ligia Benavides, Miquel Arnedo, Gonzalo Giribet, Gustavo Hormiga",
     title: "Converging on the orb: denser taxon sampling elucidates spider phylogeny and new analytical methods support repeated evolution of the orb web",
-    venue: "Cladistics", detail: "37(3): 298–316", tags: ["phylogenomics", "spiders"], url: ""
+    venue: "Cladistics", detail: "37(3): 298–316", tags: ["phylogenomics", "spiders"], url: "https://onlinelibrary.wiley.com/doi/10.1111/cla.12439"
   },
   {
     n: 22, year: 2021, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Robert Kallal, Hannah Wood, Dimitar Dimitrov, Gonzalo Giribet, Gustavo Hormiga",
     title: "Interrogating genomic-scale data to resolve recalcitrant nodes in the Spider Tree of Life",
-    venue: "Molecular Biology and Evolution", detail: "38(3): 891–903", tags: ["phylogenomics", "spiders"], url: ""
+    venue: "Molecular Biology and Evolution", detail: "38(3): 891–903", tags: ["phylogenomics", "spiders"], url: "https://academic.oup.com/mbe/article/38/3/891/5912541"
   },
   {
     n: 21, year: 2020, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Hannah Wood, Michael Lloyd, Gustavo Hormiga",
     title: "Spider-specific probe set for ultraconserved elements offers new perspectives on the evolutionary history of spiders (Arachnida, Araneae)",
-    venue: "Molecular Ecology Resources", detail: "20: 185–203", tags: ["phylogenomics", "spiders", "genomics"], url: ""
+    venue: "Molecular Ecology Resources", detail: "20: 185–203", tags: ["phylogenomics", "spiders", "genomics"], url: "https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13099"
   },
   {
     n: 20, year: 2018, status: "",
     authors: "Christopher John Thorpe, Todd Lewis, Matthew Fisher, Claudia Wierzbicki, <b>Siddharth Kulkarni</b>, Lewis Davies, David Pryce, Aparna Watve, Mairi Knight",
     title: "Climate structuring of <i>Batrachochytrium dendrobatidis</i> infection in the threatened amphibians of the northern Western Ghats, India",
-    venue: "Royal Society Open Science", detail: "5(6): 180211", tags: ["other"], url: ""
+    venue: "Royal Society Open Science", detail: "5(6): 180211", tags: ["other"], url: "https://royalsocietypublishing.org/rsos/article/5/6/180211/94001/Climate-structuring-of-Batrachochytrium"
   },
   {
     n: 19, year: 2018, status: "",
     authors: "Christopher John Thorpe, Todd Lewis, <b>Siddharth Kulkarni</b>, Aparna Watve, David Pryce, Lewis Davies, Nikhil Gaitonde, David Bilton, Mairi Knight",
     title: "Micro-habitat distribution drives patch quality for sub-tropical rocky plateau amphibians in the northern Western Ghats, India",
-    venue: "PLOS ONE", detail: "13(3): e0194810", tags: ["other"], url: ""
+    venue: "PLOS ONE", detail: "13(3): e0194810", tags: ["other"], url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0194810"
   },
   {
     n: 18, year: 2018, status: "",
     authors: "Hemant Ghate, <b>Siddharth Kulkarni</b>, Suresh Benjamin",
     title: "Giant assassin in the cave: a new species of the genus <i>Myiophanes</i> from Sri Lanka (Hemiptera: Heteroptera: Reduviidae: Emesinae)",
-    venue: "Zootaxa", detail: "4524(2): 237–244", tags: ["taxonomy", "other"], url: ""
+    venue: "Zootaxa", detail: "4524(2): 237–244", tags: ["taxonomy", "other"], url: "https://www.mapress.com/zt/article/view/zootaxa.4524.2.7"
   },
   {
     n: 17, year: 2017, status: "",
     authors: "<b>Siddharth Kulkarni</b>*, Atul Vartak, Vishwas Deshpande, <u>Dheeraj Halali</u>",
     title: "The spiny theridiid genus <i>Meotipa</i> Simon, 1895 in India, with description of a strange new species with translucent abdomen and a phylogenetic analysis about the genus placement (Araneae, Theridiidae)",
-    venue: "Zootaxa", detail: "4291(3): 504–520", tags: ["taxonomy", "spiders"], url: ""
+    venue: "Zootaxa", detail: "4291(3): 504–520", tags: ["taxonomy", "spiders"], url: "https://www.mapress.com/zt/article/view/zootaxa.4291.3.4"
   },
   {
     n: 16, year: 2017, status: "",
