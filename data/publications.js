@@ -25,16 +25,22 @@
 
 window.PUBLICATIONS = [
   {
-    n: 43, year: 2026, status: "preprint",
+    n: 44, year: 2026, status: "preprint",
     authors: "<u>Arjun Cherukutty</u>, <u>Pratik Khopkar</u>, <u>Shreya Salunkhe</u>, <u>Dibyo Mazumder</u>, <b>Siddharth Kulkarni</b>*",
     title: "Ancestral genomic stasis and coordinated genome erosion underlie asymmetric acarine diversification",
     venue: "bioRxiv", detail: "", tags: ["genomics", "acari"], url: "https://www.biorxiv.org/content/10.64898/2026.09.16.752239v1 "
   },
   {
-    n: 42, year: 2026, status: "preprint",
+    n: 43, year: 2026, status: "preprint",
     authors: "Erika Garcia, <b>Siddharth Kulkarni</b>, Matthew Graham, Carlos Santibanez-Lopez, Prashant Sharma",
     title: "Comparative genomics of the unusual arachnid order Solifugae spotlight the molecular and genetic basis for adaptations to arid habitats",
     venue: "bioRxiv", detail: "", tags: ["genomics", "solifugae"], url: "https://www.biorxiv.org/content/10.64898/2026.06.25.734573v1.abstract"
+  },
+   {
+    n: 42, year: 2026, status: "accepted",
+    authors: "Jeremy A. Miller, Charmaine Condy, <b>Siddharth Kulkarni</b>, Anthea Carmichael, Tamás Szűts, F. Andres Rivera-Quiroz, Chris Alice Kratzer, Cor Vink, Jessica Garb, Jonathan Coddington, Charles Griswold, Vanessa L. Knutson, Ted R. Schultz, Nathan Lovejoy, Maydianne C.B. Andrade",
+    title: "An atlas of widow spiders (Araneae: Theridiidae: Latrodectus Walckenaer, 1805): phylogeny, biogeography, and integrated taxonomy",
+    venue: "Zoological Journal of the Linnean Society", detail: "", tags: ["phylogenomics", "spiders", "taxonomy"], url: ""
   },
   {
     n: 41, year: 2026, status: "submitted",
