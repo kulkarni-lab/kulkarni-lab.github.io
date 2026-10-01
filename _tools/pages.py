@@ -216,8 +216,8 @@ HOME = f"""
       <h1>Same ancestor, same age, wildly different outcomes.</h1>
       <p class="hero-place"><strong>BiomE Lab</strong> &middot; Biodiversity Genomics and Evolution &middot;
         Laboratory for Conservation of Endangered Species, CSIR-CCMB, Hyderabad</p>
-      <p class="lede">Spiders number about 53,000 described species. Vinegaroons, which split from
-        them at the same moment, number 120. We use genomes, phylogenetics, collections and fieldwork
+      <p class="lede">Spiders number about 53,000 described species. Tetrapulmonates, their
+        sister group which diverged at the same time, are merely in a few hundreds. We use genomes, phylogenetics, collections and fieldwork
         across the chelicerates to work out what makes the difference.</p>
       <div class="btn-row">
         <a class="btn btn-solid" href="research.html">See the research</a>
@@ -272,6 +272,12 @@ HOME = f"""
   </div>
 </section>
 
+<section class="section featured-pub-section">
+  <div class="shell">
+    <div class="featured-pub" data-featured-pub></div>
+  </div>
+</section>
+
 <section class="section">
   <div class="shell">
     <div class="section-head">
@@ -310,9 +316,11 @@ HOME = f"""
       </article>
     </div>
     <div class="stats">
-      <div><div class="stat-n">42</div><div class="stat-l">papers</div></div>
-      <div><div class="stat-n">811</div><div class="stat-l">citations</div></div>
-      <div><div class="stat-n">3</div><div class="stat-l">families described</div></div>
+      <div><div class="stat-n">1st</div><div class="stat-l">New genomes for Opilioacarida, Palpigradi, Ricinulei</div></div>
+      <div><div class="stat-n">1st</div><div class="stat-l">Global phylogeny of Solifugae</div></div>
+      <div><div class="stat-n">1st</div><div class="stat-l">Global phylogeny of Amblypygi</div></div>
+      <div><div class="stat-n">2</div><div class="stat-l">New Solifugae suborders</div></div>
+      <div><div class="stat-n">3</div><div class="stat-l">New Solifugae families</div></div>
       <div><div class="stat-n">8,000+</div><div class="stat-l">community observers</div></div>
     </div>
   </div>
@@ -529,9 +537,13 @@ PEOPLE = f"""
 # --- Publications -------------------------------------------------------------
 PUBLICATIONS = f"""
 <div class="shell page-head">
-  <h1>Publications</h1>
-  <p class="lede">Forty-two papers on chelicerate phylogenomics, comparative genomics and taxonomy,
-    plus work on amphibians, assassin bugs and the practice of taxonomy itself.</p>
+  <div class="page-head-split">
+    <div>
+      <h1>Publications</h1>
+      <p class="lede">Research papers and book/-chapters chelicerate phylogenomics, comparative genomics and systematics. </p>
+    </div>
+    <div class="pub-covers" data-pub-covers></div>
+  </div>
 </div>
 
 <section class="section">
@@ -540,7 +552,7 @@ PUBLICATIONS = f"""
     <p class="small muted" data-pub-count></p>
     <div data-publications></div>
     <p class="legend">Bold marks Siddharth Kulkarni; an underline marks a lab member. An asterisk
-      marks corresponding authorship. Citation count from Google Scholar.</p>
+      marks corresponding authorship. Google Scholar: https://scholar.google.com/citations?user=xo9jTM0AAAAJ&hl.</p>
   </div>
 </section>
 
@@ -659,8 +671,8 @@ JOIN = f"""
   <div class="shell">
     <div class="callout">
       <h2>Ph.D. position in ecology and evolution</h2>
-      <p><strong>Five years, starting August 2026, at CSIR-CCMB, Hyderabad.</strong>
-        Applications close <strong>14 April 2026</strong>.</p>
+      <p><strong>Five years, starting January 2027, at CSIR-CCMB, Hyderabad.</strong>
+        Applications close <strong>31 October 2026</strong>.</p>
     </div>
 
     <div class="measure" style="margin-top:2rem">
@@ -736,7 +748,7 @@ JOIN = f"""
         <dt>Selection</dt>
         <dd>LaCONES-only candidates are exempt from the computer-based written test and are screened
           on the statement of purpose and an interview. Shortlisted candidates are interviewed online
-          in May 2026, and selection is on the overall merit of the application and the interview.</dd>
+          in December 2026, and selection is on the overall merit of the application and the interview.</dd>
       </div>
     </dl>
   </div>
