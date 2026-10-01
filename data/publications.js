@@ -35,7 +35,10 @@ window.PUBLICATIONS = [
     n: 44, year: 2026, status: "preprint",
     authors: "<u>Arjun Cherukutty</u>, <u>Pratik Khopkar</u>, <u>Shreya Salunkhe</u>, <u>Dibyo Mazumder</u>, <b>Siddharth Kulkarni</b>*",
     title: "Ancestral genomic stasis and coordinated genome erosion underlie asymmetric acarine diversification",
-    venue: "bioRxiv", detail: "", tags: ["genomics", "acari"], url: "https://www.biorxiv.org/content/10.64898/2026.09.16.752239v1 "
+    venue: "bioRxiv", detail: "", tags: ["genomics", "acari"], url: "https://www.biorxiv.org/content/10.64898/2026.09.16.752239v1",
+    featured: true,
+    blurb: "Parasitiform ticks and mites are asymmetrically diverse with mites having highly compacted genomes. With a new genome of the 'living fossil' Opilioacarida, we explored how genomes of Acari have been rewired over time using comparative genomics and phylogenetics",
+    figure: ""
   },
   {
     n: 43, year: 2026, status: "preprint",
@@ -67,7 +70,7 @@ window.PUBLICATIONS = [
     title: "Ancient gene linkages and ultraconserved elements disentangle Acari interrelationships",
     venue: "iScience", detail: "29(2): 114616", tags: ["genomics", "phylogenomics", "acari"],
     url: "https://www.cell.com/iscience/fulltext/S2589-0042(25)02877-9",
-    featured: true,
+    featured: false,
     blurb: "Relationships among ticks and mites have resisted resolution for decades. By combining ancient gene linkages that survive across whole chromosomes with hundreds of ultraconserved elements, we recovered a stable backbone for the group \u2014 the lab's first published result.",
     figure: ""
   },
