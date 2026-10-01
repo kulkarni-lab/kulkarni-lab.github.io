@@ -192,7 +192,14 @@
     }).join("");
   }
 
-  /* --- Publications ------------------------------------------------------- */
+  /* --- Publications -------------------------------------------------------
+     TAG_LABELS controls the filter chips. A tag used in data/publications.js
+     that is NOT a key here (e.g. the "other" tag some older papers carry)
+     still gets stored on the paper but gets no filter button of its own —
+     the paper just won't be reachable by filtering on that tag, though it
+     still shows under "Everything" and under any of its other tags. To add
+     a whole new filterable category, add a line here AND use that same word
+     in the tags: [...] array of whichever papers should carry it. */
   var TAG_LABELS = {
     all: "Everything",
     genomics: "Genomics",
@@ -210,8 +217,9 @@
       ? '<a href="' + p.url + '">' + p.title + "</a>"
       : p.title;
     var flag = p.status ? ' <span class="pub-flag">' + p.status + "</span>" : "";
+    var num = '<span class="pub-num">' + p.n + ".</span> ";
     return '<article class="pub">' +
-      '<p class="pub-title">' + title + flag + "</p>" +
+      '<p class="pub-title">' + num + title + flag + "</p>" +
       '<p class="pub-authors">' + p.authors + "</p>" +
       '<p class="pub-venue"><em>' + p.venue + "</em>" + (p.detail ? " " + p.detail : "") + "</p>" +
       "</article>";
@@ -302,6 +310,37 @@
      figure + blurb card if it has an image; falls back to a full-width text
      card if figure is empty or the file fails to load, so a missing image
      never looks broken. */
+  /* --- Cover thumbnails on the Publications page header --------------------
+     Any paper can carry a cover: "filename.jpg" (in assets/img/publications/)
+     as well as, or instead of, the one home-page featured: true paper. This
+     shows up to 6 of them, most recent first, as a small thumbnail grid next
+     to the page heading. If no paper has a cover set, or none of the files
+     load, the grid is removed entirely and the heading text takes the full
+     width again — never a row of empty boxes. */
+  function renderPubCovers() {
+    var host = document.querySelector("[data-pub-covers]");
+    if (!host || !window.PUBLICATIONS) return;
+
+    var withCovers = window.PUBLICATIONS
+      .filter(function (p) { return p.cover; })
+      .sort(function (a, b) { return b.n - a.n; })
+      .slice(0, 6);
+
+    if (!withCovers.length) {
+      host.closest(".page-head-split").classList.add("no-covers");
+      return;
+    }
+
+    host.innerHTML = withCovers.map(function (p) {
+      var img = '<img src="assets/img/publications/' + p.cover + '" alt="" loading="lazy" ' +
+        'onerror="this.closest(\'.pub-cover\').remove(); ' +
+        'if(!document.querySelectorAll(\'.pub-cover\').length) ' +
+        'document.querySelector(\'.page-head-split\').classList.add(\'no-covers\');">';
+      var cell = '<span class="pub-cover">' + img + "</span>";
+      return p.url ? '<a href="' + p.url + '" class="pub-cover-link">' + cell + "</a>" : cell;
+    }).join("");
+  }
+
   function renderFeaturedPub() {
     var host = document.querySelector("[data-featured-pub]");
     if (!host || !window.PUBLICATIONS) return;
@@ -354,6 +393,7 @@
     renderPeople();
     renderProjects();
     renderPublications();
+    renderPubCovers();
     renderBooks();
     renderHighlights();
     renderFeaturedPub();
