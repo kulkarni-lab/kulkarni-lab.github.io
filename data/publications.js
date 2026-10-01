@@ -21,6 +21,13 @@
    the home page will show the blurb full-width instead of a broken image).
    Only one paper should carry featured: true; move it when a new one should
    take the spot.
+
+   To show a paper's cover or a figure in the small thumbnail strip next to
+   the "Publications" heading, add cover: "filename.jpg" to its entry (same
+   folder, assets/img/publications/). Any number of papers can carry this —
+   up to six, most recent first, are shown. Leave it off (or "") for papers
+   with no image; the strip just won't include them, and if nothing has a
+   cover at all, the strip disappears and the heading takes the full width.
    ========================================================================== */
 
 window.PUBLICATIONS = [
