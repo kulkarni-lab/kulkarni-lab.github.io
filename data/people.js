@@ -33,6 +33,10 @@ window.GROUPS = [
     blurb: "Doctoral students, project staff and research assistants based at LaCONES, CSIR-CCMB.",
     people: [
       {
+        name: "Sahil Rana", role: "Doctoral student", since: "2026", photo: "SahilRana.jpeg",
+        note: "Exploring origins and genomic architectures of parasitism ", links: []
+      },
+      {
         name: "Shripad Manthen", role: "Spider taxonomist", since: "2026", photo: "smanthen.jpeg",
         note: "The lab's in-house expert on spider identification and morphology.", links: []
       },
