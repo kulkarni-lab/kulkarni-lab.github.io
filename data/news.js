@@ -6,6 +6,21 @@
      date  what is displayed, e.g. "August 2026"
      sort  YYYYMM as a number — used to keep the order right
      body  plain text with <strong>names</strong> and <a href="…">links</a>
+
+   Optional:
+     photo     image file in assets/img/news/, e.g. "ica-2026.jpg"
+     photoAlt  short description of the photo, for screen readers
+     url       where the entry should link (paper, article, event page).
+               Adds a "Read more" link and makes the photo clickable.
+     linkText  replaces "Read more", e.g. "Read the paper"
+
+   Example:
+     {
+       date: "November 2026", sort: 202611,
+       body: "…",
+       photo: "ica-2026.jpg", photoAlt: "Siddharth at the podium",
+       url: "https://…", linkText: "Congress programme"
+     },
    ========================================================================== */
 
 window.NEWS = [
