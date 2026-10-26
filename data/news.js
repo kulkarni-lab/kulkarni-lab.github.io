@@ -54,7 +54,7 @@ window.NEWS = [
   },
   {
     date: "June 2026", sort: 202606,
-    body: "Invited talk at the ICMR-National Institute of Virology, Pune, on what arachnid genomics has to say about vectors.",
+    body: "Siddharth delivered an invited talk at the ICMR-National Institute of Virology, Pune, on what arachnid genomics has to say about disease vectors.",
     photo: "",          // file in assets/img/news/
     photoAlt: "",       // optional, for screen readers
     url: "https://www.instagram.com/p/DaFtqGnjQTT/",            // adds a "Read more →" link and makes the photo clickable
