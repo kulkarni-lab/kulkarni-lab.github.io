@@ -275,6 +275,21 @@ em, i, .sp { font-style: italic; }
 .entry-date { font-size: var(--t-xs); color: var(--ink-soft); letter-spacing: .01em; }
 .entry-body { margin: .15rem 0 0; max-width: var(--measure); }
 .entry-body strong { font-weight: 600; }
+.entry-link { white-space: nowrap; font-size: var(--t-sm); }
+.entry.has-photo {
+  display: grid; grid-template-columns: minmax(0, var(--measure)) 9rem;
+  gap: 1.25rem; align-items: start;
+}
+.entry-photo {
+  display: block; aspect-ratio: 4 / 3; overflow: hidden;
+  background: var(--surface-alt); border: 1px solid var(--rule);
+}
+.entry-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+a.entry-photo:hover img { opacity: .88; }
+@media (max-width: 640px) {
+  .entry.has-photo { grid-template-columns: 1fr; gap: .6rem; }
+  .entry-photo { max-width: 16rem; order: -1; }
+}
 
 /* --- People -------------------------------------------------------------- */
 .person { background: var(--surface); border: 1px solid var(--rule); }
