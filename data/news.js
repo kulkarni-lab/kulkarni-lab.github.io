@@ -36,7 +36,15 @@ window.NEWS = [
     url: "",            // adds a "Read more →" link and makes the photo clickable
     linkText: ""        // optional, replaces "Read more"
   },
-  {
+   {
+    date: "October 2026", sort: 202608,
+    body: "Lab hosted the <strong>World Wildlife Week</strong> with school students from Hyderabad, India.",
+    photo: "",          // file in assets/img/news/
+    photoAlt: "",       // optional, for screen readers
+    url: "https://www.instagram.com/csirccmb/p/DeRckPJFD4p/?hl=en&img_index=1",            // adds a "Read more →" link and makes the photo clickable
+    linkText: ""        // optional, replaces "Read more"
+  },
+   {
     date: "August 2026", sort: 202608,
     body: "<strong>Shripad Manthen</strong> has joined the crew as our in-house spider expert.",
     photo: "",          // file in assets/img/news/
@@ -49,7 +57,7 @@ window.NEWS = [
     body: "Invited talk at the ICMR-National Institute of Virology, Pune, on what arachnid genomics has to say about vectors.",
     photo: "",          // file in assets/img/news/
     photoAlt: "",       // optional, for screen readers
-    url: "",            // adds a "Read more →" link and makes the photo clickable
+    url: "https://www.instagram.com/p/DaFtqGnjQTT/",            // adds a "Read more →" link and makes the photo clickable
     linkText: ""        // optional, replaces "Read more"
   },
   {
