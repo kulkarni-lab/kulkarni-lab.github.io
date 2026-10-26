@@ -272,9 +272,14 @@ HOME = f"""
   </div>
 </section>
 
-<section class="section featured-pub-section">
+<section class="section">
   <div class="shell">
-    <div class="featured-pub" data-featured-pub></div>
+    <div class="section-head">
+      {BRANCH}
+      <h2>Latest from the bench</h2>
+      <p>The three most recent things out of the lab. <a href="publications.html">All publications</a>.</p>
+    </div>
+    <div class="grid grid-3" data-highlights></div>
   </div>
 </section>
 
@@ -323,17 +328,6 @@ HOME = f"""
       <div><div class="stat-n">3</div><div class="stat-l">New Solifugae families</div></div>
       <div><div class="stat-n">8,000+</div><div class="stat-l">community observers</div></div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell">
-    <div class="section-head">
-      {BRANCH}
-      <h2>Latest from the bench</h2>
-      <p>The three most recent things out of the lab. <a href="publications.html">All publications</a>.</p>
-    </div>
-    <div class="grid grid-3" data-highlights></div>
   </div>
 </section>
 
