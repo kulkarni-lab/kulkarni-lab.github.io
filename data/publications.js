@@ -32,6 +32,15 @@
 
 window.PUBLICATIONS = [
   {
+    n: 45, year: 2026, status: "preprint",
+    authors: "<b>Siddharth Kulkarni</b>*",
+    title: "Anvaya: phylogenomic analysis of chromosome fusion-and-mixing characters and detection of shared whole-genome duplication",
+    venue: "bioRxiv", detail: "", tags: ["genomics", "acari"], url: "https://www.biorxiv.org/content/10.64898/2026.10.08.757583v1",
+    featured: true,
+    blurb: "A tool designed for phylogenomic analysis of chromosome fusion-and-mixing characters and the detection of shared whole-genome duplication",
+    figure: ""
+  },
+   {
     n: 44, year: 2026, status: "preprint",
     authors: "<u>Arjun Cherukutty</u>, <u>Pratik Khopkar</u>, <u>Shreya Salunkhe</u>, <u>Dibyo Mazumder</u>, <b>Siddharth Kulkarni</b>*",
     title: "Ancestral genomic stasis and coordinated genome erosion underlie asymmetric acarine diversification",
