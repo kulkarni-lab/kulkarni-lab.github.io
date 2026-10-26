@@ -33,7 +33,7 @@ window.NEWS = [
     body: "<strong>Siddharth</strong> will give a plenary lecture at the International Congress of Arachnology in Kochi, Kerala.",
     photo: "",          // file in assets/img/news/
     photoAlt: "",       // optional, for screen readers
-    url: "",            // adds a "Read more →" link and makes the photo clickable
+    url: "https://ica2026.in/plenary-speakers.asp",            // adds a "Read more →" link and makes the photo clickable
     linkText: ""        // optional, replaces "Read more"
   },
    {
