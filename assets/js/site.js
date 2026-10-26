@@ -85,9 +85,24 @@
     if (limit) items = items.slice(0, limit);
 
     host.innerHTML = items.map(function (it, i) {
-      return '<li class="entry' + (i === 0 ? " is-recent" : "") + '">' +
-        '<div class="entry-date">' + it.date + "</div>" +
-        '<p class="entry-body">' + it.body + "</p></li>";
+      var link = it.url
+        ? ' <a class="entry-link" href="' + it.url + '">' + (it.linkText || "Read more") + " &rarr;</a>"
+        : "";
+      var photo = "";
+      if (it.photo) {
+        // A missing file removes the photo cell, so the entry falls back to text only.
+        var img = '<img src="assets/img/news/' + it.photo + '" alt="' + (it.photoAlt || "") +
+          '" loading="lazy" onerror="var e=this.closest(\'.entry\'); e.classList.remove(\'has-photo\'); ' +
+          'this.closest(\'.entry-photo\').remove();">';
+        photo = it.url
+          ? '<a class="entry-photo" href="' + it.url + '" tabindex="-1">' + img + "</a>"
+          : '<div class="entry-photo">' + img + "</div>";
+      }
+      return '<li class="entry' + (i === 0 ? " is-recent" : "") + (photo ? " has-photo" : "") + '">' +
+        '<div class="entry-text">' +
+          '<div class="entry-date">' + it.date + "</div>" +
+          '<p class="entry-body">' + it.body + link + "</p>" +
+        "</div>" + photo + "</li>";
     }).join("");
   }
 
