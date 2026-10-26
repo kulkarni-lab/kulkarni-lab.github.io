@@ -36,6 +36,14 @@ window.NEWS = [
     url: "https://ica2026.in/plenary-speakers.asp",            // adds a "Read more →" link and makes the photo clickable
     linkText: ""        // optional, replaces "Read more"
   },
+ {
+    date: "October 2026", sort: 202608,
+    body: "Lab hosted the <strong>20+ community scientists from Hyderabad</strong> to observe and discuss spiders with us.",
+    photo: "",          // file in assets/img/news/
+    photoAlt: "",       // optional, for screen readers
+    url: "https://www.instagram.com/csirccmb/p/DeRckPJFD4p/?hl=en&img_index=1",            // adds a "Read more →" link and makes the photo clickable
+    linkText: ""        // optional, replaces "Read more"
+  },
    {
     date: "October 2026", sort: 202608,
     body: "Lab hosted the <strong>World Wildlife Week</strong> with school students from Hyderabad, India.",
