@@ -21,8 +21,8 @@ BRANCH = ('<svg class="branch" viewBox="0 0 40 22" aria-hidden="true">'
 TREE = (
     "Pycnogonida",
     (
-        ("Xiphosura", "Opiliones", "Solifugae", "Acariformes", "Parasitiformes",
-         "Palpigradi", "Ricinulei"),
+        "Xiphosura", "Opiliones", "Solifugae", "Acariformes", "Parasitiformes",
+        "Palpigradi", "Ricinulei",
         (
             ("Scorpiones", "Pseudoscorpiones"),
             (
