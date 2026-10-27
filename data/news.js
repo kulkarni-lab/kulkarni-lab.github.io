@@ -39,7 +39,7 @@ window.NEWS = [
   {
     date: "October 2026", sort: 202610.2,
     body: "Lab hosted the <strong>20+ community scientists from Hyderabad</strong> to observe and discuss spiders with us.",
-    photo: "",                                                                  // file in assets/img/news/
+    photo: "spider-walk-lacones-2026.jpeg",                                                                  // file in assets/img/news/
     photoAlt: "",                                                               // optional, for screen readers
     url: "https://www.linkedin.com/posts/spiders-ugcPost-7520670973185028096-uv5e/", // adds a "Read more →" link and makes the photo clickable
     linkText: ""                                                                // optional, replaces "Read more"
